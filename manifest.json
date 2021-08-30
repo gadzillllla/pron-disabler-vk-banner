@@ -1,0 +1,16 @@
+{
+    "name": "Pron Disabler =)",
+    "description": "Remove VK-banner from your favorite site",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.pornhub.com/*"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
